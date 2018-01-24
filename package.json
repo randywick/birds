@@ -1,0 +1,22 @@
+{
+  "name": "birds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {     
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch",
+    "bs": "browser-sync start -s '.' -f 'dist'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "webpack": "^3.10.0"
+  }
+}
